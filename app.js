@@ -7,47 +7,27 @@ tg.MainButton.color = "#2cab37";
 
 let item = "";
 
-let btn1 = document.getElementById("btn1");
-let btn2 = document.getElementById("btn2");
-let btn3 = document.getElementById("btn3");
+let box1 = document.getElementById("box1");
+let box2 = document.getElementById("box2");
+let box3 = document.getElementById("box3");
 
-btn1.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
+box1.addEventListener("click", function(){
+	(tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
-	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
-		item = "1";
-		tg.MainButton.show();
+
+});
+
+box2.addEventListener("click", function(){
+	(tg.MainButton.isVisible) {
+		tg.MainButton.hide();
 	}
 });
 
-btn2.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
+box3.addEventListener("click", function(){
+	(tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
-	else {
-		tg.MainButton.setText("Вы выбрали товар 2!");
-		item = "2";
-		tg.MainButton.show();
-	}
-});
-
-btn3.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Вы выбрали товар 3!");
-		item = "3";
-		tg.MainButton.show();
-	}
-});
-
-
-
-Telegram.WebApp.onEvent("mainButtonClicked", function(){
-	tg.sendData(item);
 });
 
 let usercard = document.getElementById("usercard");
@@ -59,7 +39,3 @@ ${tg.initDataUnsafe.user.last_name}`;
 
 
 usercard.appendChild(p); 
-
-
-
-
