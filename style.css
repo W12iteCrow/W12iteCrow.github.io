@@ -6,7 +6,10 @@ body {
    margin: 0;
    font-size: 16px;
    font-family: Helvetica;
-   background: #ECF0F1;
+   background-image: url(https://phonoteka.org/uploads/posts/2022-09/thumbs/1663087067_10-phonoteka-org-p-tekstura-gradient-dlya-fotoshopa-krasivo-10.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 .wrap {
@@ -82,13 +85,37 @@ h2 {
    text-align: center;
 }
 
-.price {
-   height: 100px;
+.price1 {
+   height: 70px;
+   width: 230px;
+   text-align: center;
+   background-color: #7a7676;
+   border-radius: 10%;
+   line-height: 80px;
+   color: #FFF;
+   font-size: 30px;
+   font-weight: 100px;
+   margin: 20px auto;
+}
+.price2 {
+   height: 70px;
    width: 230px;
    text-align: center;
    background-color: #EC351D;
    border-radius: 10%;
-   line-height: 110px;
+   line-height: 80px;
+   color: #FFF;
+   font-size: 30px;
+   font-weight: 100px;
+   margin: 20px auto;
+}
+.price3 {
+   height: 80px;
+   width: 230px;
+   text-align: center;
+   background-color: #8d0bc9;
+   border-radius: 10%;
+   line-height: 85px;
    color: #FFF;
    font-size: 30px;
    font-weight: 100px;
