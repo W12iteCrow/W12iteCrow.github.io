@@ -100,7 +100,7 @@ h2 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.button {
+button {
 	text-decoration: none;
 	display: inline-block;
 	margin: 20px auto;
@@ -113,6 +113,6 @@ h2 {
 	transition: 0.7s ease-in-out;
 }
 
-.button:hover {
+button:hover {
 	background: #A52514
 }
