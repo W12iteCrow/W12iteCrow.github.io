@@ -44,16 +44,6 @@ btn3.addEventListener("click", function(){
 	}
 });
 
-btn3.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Вы выбрали товар 3!");
-		item = "3";
-		tg.MainButton.show();
-	}
-});
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
