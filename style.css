@@ -10,6 +10,15 @@ body {
    font-family: Helvetica;
    background: white;
 }
+.about2{
+   margin: 10px 0px;
+   padding-top: 10px;
+   padding-bottom: 0px;
+   font-weight: 400;
+   font-size: 0.8em;
+   color: #5c5a5a;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .headline {
    display: inline-block;
@@ -118,7 +127,7 @@ h2 {
 
 .price1 {
    height: 7%;
-   width: 119%;
+   width: 124%;
    text-align: center;
    background-color: #7a7676;
    border-radius: 15%;
@@ -131,7 +140,7 @@ h2 {
 
 .price2 {
    height: 7%;
-   width: 120%;
+   width: 124%;
    text-align: center;
    background-color: #EC351D;
    border-radius: 15%;
@@ -190,7 +199,7 @@ body a {
 .button1 {
    display: inline-block;
    background: white;
-   margin-top: 153%;
+   margin-top: 400px;
    height: 5%;
    width: 100%;
    border-radius: 10%;
@@ -278,11 +287,15 @@ button:hover {
 }
 @media (max-width: 420px) {
    .button1 {
-      margin-top: 367%;
+      margin-top: 348%;
       height: 4%;
       width: 100%;
+      font-size: 16px;
    }
-
+   .button2 {
+      margin-top: 20%;
+      font-size: 16px;
+   }
    .price1 {
       height: 4%;
       width: 135%;
@@ -300,12 +313,12 @@ button:hover {
       margin-bottom: 15px;
    }
    .title {
-      font-size: 24px;
+      font-size: 26px;
       text-align: center;
    }
 
    .title-vip {
-      font-size: 24px;
+      font-size: 26px;
       text-align: center;
    }
    .about {
@@ -317,9 +330,13 @@ button:hover {
 }
 @media (max-width: 380px) {
    .button1 {
-      margin-top: 484%;
+      margin-top: 450px;
       height: 4%;
       width: 100%;
+      font-size: 16px;
+   }
+   .button2 {
+      font-size: 16px;
    }
 
    .price1 {
@@ -332,5 +349,17 @@ button:hover {
       height: 4%;
       width: 138%;
       line-height: 58px;
+   }
+   .title {
+      font-size: 26px;
+      text-align: center;
+   }
+
+   .title-vip {
+      font-size: 24px;
+      text-align: center;
+   }
+   .headline img {
+      margin-bottom: -10px;
    }
 }
