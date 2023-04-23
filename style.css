@@ -1,12 +1,12 @@
-/* * {
+* {
    box-sizing: border-box;
-} */
+}
 
 body {
    margin: 0;
    font-size: 16px;
    font-family: Helvetica;
-   background:white;
+   background: white;
 }
 
 .headline {
@@ -15,10 +15,11 @@ body {
 }
 
 .headline img {
-   max-width: 100%;
+   max-width: 95%;
    height: 110%;
    margin-bottom: -40px;
 }
+
 /* }
 .headline-text1 {
    font-size: 36px;
@@ -42,6 +43,7 @@ body {
    display: flex;
    justify-content: center;
 }
+
 .wrap2 {
    max-width: 660px;
    margin-top: 25px;
@@ -54,7 +56,7 @@ body {
 .box1 {
    display: inline-block;
    margin: 0 20px;
-   width: 250px;
+   width: 290px;
    background: rgb(255, 255, 255);
    text-align: left;
    padding: 20px;
@@ -65,7 +67,7 @@ body {
 .box2 {
    display: inline-block;
    margin: 0 20px;
-   width: 250px;
+   width: 290px;
    background: white;
    text-align: left;
    padding: 20px;
@@ -76,7 +78,7 @@ body {
 .box3 {
    display: inline-block;
    margin: 0 20px;
-   width: 250px;
+   width: 290px;
    background: white;
    text-align: left;
    padding: 20px;
@@ -100,7 +102,8 @@ h2 {
    font-weight: 100;
    letter-spacing: 1px;
 }
-.title{
+
+.title {
    font-size: 32px;
    text-align: center;
 }
@@ -122,6 +125,7 @@ h2 {
    font-weight: 100px;
    margin-left: -20px;
 }
+
 .price2 {
    height: 70px;
    width: 290px;
@@ -134,9 +138,10 @@ h2 {
    font-weight: 100px;
    margin-left: -20px;
 }
+
 .price3 {
    height: 70px;
-   width: 290px; 
+   width: 290px;
    text-align: center;
    background-color: #6b3285;
    border-radius: 15%;
@@ -180,24 +185,45 @@ body a {
 }
 
 .button1 {
+   display: inline-block;
    background: white;
    margin-top: 322px;
+   height: 55px;
+   width: 250px;
+   border-radius: 10%;
+   font-size: 20px;
 }
+
 .button2 {
+   display: inline-block;
    background: #EC351D;
    color: rgb(255, 255, 255);
+   height: 55px;
+   width: 250px;
+   border-radius: 10%;
+   font-size: 20px;
+   margin-top: 30px;
 }
+
 .button3 {
+   display: inline-block;
    background: #6b3285;
    color: rgb(255, 255, 255);
+   height: 55px;
+   width: 250px;
+   border-radius: 10%;
+   font-size: 20px;
+   margin-top: 30px;
 }
 
 .button1:hover {
    background: #f0ec09
 }
+
 .button2:hover {
    background: #f0ec09
 }
+
 .button3:hover {
    background: #f0ec09
 }
