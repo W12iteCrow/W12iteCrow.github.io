@@ -17,9 +17,10 @@ body {
 }
 
 .headline img {
-   max-width: 95%;
-   height: 110%;
-   margin-bottom: -40px;
+   max-width: 80%;
+   height: 100%;
+   margin-bottom: -30px;
+   margin-left: 20px;
 }
 
 /* }
@@ -39,7 +40,7 @@ body {
 } */
 
 .wrap {
-   max-width: 660px;
+   max-width: 650px;
    /* margin: 50px auto 0 auto; */
    text-align: center;
    display: flex;
@@ -58,7 +59,7 @@ body {
 .box1 {
    display: inline-block;
    margin: 0 20px;
-   width: 290px;
+   width: 250px;
    background: rgb(255, 255, 255);
    text-align: left;
    padding: 20px;
@@ -69,7 +70,7 @@ body {
 .box2 {
    display: inline-block;
    margin: 0 20px;
-   width: 290px;
+   width: 250px;
    background: white;
    text-align: left;
    padding: 20px;
@@ -117,7 +118,7 @@ h2 {
 
 .price1 {
    height: 70px;
-   width: 290px;
+   width: 250px;
    text-align: center;
    background-color: #7a7676;
    border-radius: 15%;
@@ -130,7 +131,7 @@ h2 {
 
 .price2 {
    height: 70px;
-   width: 290px;
+   width: 250px;
    text-align: center;
    background-color: #EC351D;
    border-radius: 15%;
@@ -189,9 +190,9 @@ body a {
 .button1 {
    display: inline-block;
    background: white;
-   margin-top: 323px;
-   height: 55px;
-   width: 250px;
+   margin-top: 338px;
+   height: 50px;
+   width: 210px;
    border-radius: 10%;
    font-size: 20px;
    border-color: black;
@@ -204,8 +205,8 @@ body a {
    display: inline-block;
    background: #EC351D;
    color: rgb(255, 255, 255);
-   height: 55px;
-   width: 250px;
+   height: 50px;
+   width: 210px;
    border-radius: 10%;
    font-size: 20px;
    margin-top: 30px;
