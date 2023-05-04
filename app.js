@@ -18,7 +18,7 @@ btn1.addEventListener("click", function(){
 		mainButton.hide();
 	}
 	else {
-		mainButton.setText("Вы выбрали товар 1!");
+		mainButton.setText("Вы выбрали тариф 'Student'");
 		item = "1";
 		mainButton.show();
 	}
@@ -29,7 +29,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 2!");
+		tg.MainButton.setText("Вы выбрали тариф 'VIP'");
 		item = "2";
 		tg.MainButton.show();
 	}
@@ -40,7 +40,7 @@ btn3.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 3!");
+		tg.MainButton.setText("Вы выбрали тариф 'Teacher'");
 		item = "3";
 		tg.MainButton.show();
 	}
