@@ -22,7 +22,8 @@ body {
 
 .headline {
    display: inline-block;
-
+   text-align: center;
+   max-width: 560px;
 }
 
 .headline img {
@@ -33,16 +34,22 @@ body {
 }
 
 .headline-text1 {
-   font-size: 28px;
+   font-size: 18px;
    color: #333333;
-   margin-top: -20px;
    margin-bottom: 50px;
-   color: #5D5D5D;
+   color: rgb(60, 58, 58);
+   margin-left: 50px;
+   padding: 20px;
+   margin-top: 8px;
+   background: rgb(255, 255, 255);
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 .headline-text2 {
-   font-size: 22px;
+   font-size: 16px;
    color: #ae0d0d;
    margin-top: -42px;
+   margin-left: 40px;
    margin-bottom: 50px;
    color: #aa2222;
 }
