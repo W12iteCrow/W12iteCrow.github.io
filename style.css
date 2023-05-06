@@ -32,21 +32,20 @@ body {
    margin-left: 20px;
 }
 
-/* }
 .headline-text1 {
-   font-size: 36px;
+   font-size: 28px;
    color: #333333;
    margin-top: -20px;
    margin-bottom: 50px;
    color: #5D5D5D;
 }
 .headline-text2 {
-   font-size: 36px;
-   color: #333333;
+   font-size: 22px;
+   color: #ae0d0d;
    margin-top: -42px;
    margin-bottom: 50px;
-   color: #5D5D5D;
-} */
+   color: #aa2222;
+}
 
 .wrap {
    max-width: 650px;
