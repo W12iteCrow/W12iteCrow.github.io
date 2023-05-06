@@ -207,6 +207,7 @@ body a {
    display: inline-block;
    background: white;
    margin-top: 400px;
+   margin-bottom: 10%;
    height: 5%;
    width: 100%;
    border-radius: 10%;
@@ -257,6 +258,7 @@ button:hover {
 @media (max-width: 490px) {
       .button1 {
          margin-top: 305%;
+         margin-bottom: 10%;
          height: 4%;
          width: 100%;
       }
@@ -300,6 +302,7 @@ button:hover {
 @media (max-width: 420px) {
    .button1 {
       margin-top: 348%;
+      margin-bottom: 10%;
       height: 4%;
       width: 100%;
       font-size: 16px;
